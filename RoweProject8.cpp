@@ -27,7 +27,7 @@ class Sort
 private:
 	const static int NAMES = 30;		//declare array for holding roster names
 	string Roster[NAMES] = { " " };		//initialize array
-	ifstream ifile;						//input file object
+	ifstream ifile;				//input file object
 	void openFile();
 	void validate();
 	void readFile();
